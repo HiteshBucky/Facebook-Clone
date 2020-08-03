@@ -1,0 +1,95 @@
+body{
+	overflow-x: hidden;
+}
+#upload_image_button{
+	position: absolute;
+	top: 50.5%;
+	right: 14%;
+	min-width: 100px;
+	max-width: 100px;
+	border-radius: 4px;
+	transform: translate(-50%, -50%);
+}
+label{
+	padding: 7px;
+	display: table;
+	color: #fff;
+}
+input[type="file"]{
+	display: none;
+}
+#content{
+	width: 70%;
+}
+#btn-post{
+	min-width: 25%;
+	max-width: 25%;
+}
+#insert_post{
+	background-color: #fff;
+	border: 2px solid #e6e6e6;
+	padding: 40px 50px;
+}
+#posts{
+	border: 5px solid #e6e6e6;
+	padding: 40px 50px;
+}
+#posts-img{
+	padding-top: 5px;
+	padding-right: 10px;
+	min-width: 102%;
+	max-width: 50%;
+}
+#single_posts{
+	border: 5px solid #e6e6e6;
+	padding: 40px 50px;
+}
+.pb-cmnt-container{
+	font-family: Lato;
+	margin-top: 100px;
+}
+.pb-cmnt-textarea{
+	resize: none;
+	padding: 20px;
+	height: 110px;
+	width: 100%;
+	border: 1px solid #F2F2F2;
+}
+#find_people{
+	border: 5px solid #e6e6e6;
+	padding: 40px 50px;
+
+}
+#result_posts{
+	border: 5px solid #e6e6e6;
+	padding: 40px 50px;
+}
+form.search_form input[type=text]{
+	padding: 10px;
+	font-size: 17px;
+	border-radius: 4px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+form.search_form button{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.search_form button:hover{
+	background: #0b7dda;
+}
+form.search_form::after{
+	content:"";
+	clear: both;
+	display: table;
+}
+
+
